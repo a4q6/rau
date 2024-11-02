@@ -1,0 +1,18 @@
+name: rau-basics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - pytest
+  - sphinx
+  - typing
+  - cvxpy
+  - pyarrow
+  - dill
+- pip:
+      - -e .  # install this package

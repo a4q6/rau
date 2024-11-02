@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rau"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+dependencies = []  # See `environment.yml`
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "sphinx",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]                     # Package source
+
+[tool.sphinx]
+builder = "html"                    # Document builder
+source_dir = "docs/source"          # Document source
+build_dir = "docs/build"            # Document build dir
