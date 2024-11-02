@@ -14,5 +14,7 @@ dependencies:
   - cvxpy
   - pyarrow
   - dill
+  - toml
+  - pyyaml
 - pip:
       - -e .  # install this package

@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "rau"
 version = "0.1.0"
+authors = [{name="", email="xxx@gmail.com"}]
 description = ""
 readme = "README.md"
 dependencies = []  # See `environment.yml`
