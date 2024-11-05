@@ -1,9 +1,5 @@
 name: rau-basics
-channels:
-  - conda-forge
-  - defaults
 dependencies:
-  - python=3.9
   - pandas
   - numpy
   - scipy
@@ -16,5 +12,3 @@ dependencies:
   - dill
   - toml
   - pyyaml
-- pip:
-      - -e .  # install this package
